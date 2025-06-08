@@ -17,7 +17,7 @@ namespace Csv_Cars.Context
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             base.OnConfiguring(optionsBuilder);
-            optionsBuilder.UseSqlServer("Server=DESKTOP-7AG4V62;Database=CarCSV_Test;Trusted_Connection=true;TrustServerCertificate=true");
+            optionsBuilder.UseSqlServer("");
             
         }
         protected override void OnModelCreating(ModelBuilder modelBuilder) 
